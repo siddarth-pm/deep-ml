@@ -1,0 +1,1 @@
+# we cannot do this operation with einsum! using einops we can though.

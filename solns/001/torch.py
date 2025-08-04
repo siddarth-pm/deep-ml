@@ -12,4 +12,3 @@ def matrix_dot_vector(a, b) -> torch.Tensor:
     if a_t.size(1) != b_t.size(0):
         return torch.tensor(-1)
     return torch.matmul(a_t, b_t)
-
